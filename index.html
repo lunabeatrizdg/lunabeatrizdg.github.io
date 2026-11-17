@@ -46,7 +46,7 @@
       background: linear-gradient(115deg, var(--pink-pale), #fff 68%);
       padding: 88px 0 82px;
     }
-    .hero-grid { display: grid; grid-template-columns: 1.3fr .7fr; align-items: center; gap: 55px; }
+    .hero-grid { display: grid; grid-template-columns: 1fr; align-items: center; gap: 0; }
     .eyebrow { color: var(--pink-dark); text-transform: uppercase; letter-spacing: .19em; font-size: .72rem; font-weight: 700; }
     h1 { font: 400 clamp(3rem, 7vw, 5.8rem)/1.02 var(--serif); margin: 18px 0 20px; letter-spacing: -.045em; }
     h1 span { color: var(--pink-dark); }
@@ -55,14 +55,6 @@
     .btn { display: inline-block; padding: 12px 19px; border: 1px solid var(--pink-dark); font-size: .82rem; letter-spacing: .03em; transition: .2s; }
     .btn.primary { background: var(--pink-dark); color: white; }
     .btn:hover { transform: translateY(-2px); }
-    .portrait {
-      min-height: 390px; background: var(--pink);
-      display: flex; align-items: center; justify-content: center;
-      color: #fff; text-align: center; padding: 25px;
-      outline: 1px solid #c9949e; outline-offset: -12px;
-    }
-    .portrait strong { display: block; font: 2rem var(--serif); }
-    .portrait small { display: block; margin-top: 8px; letter-spacing: .12em; text-transform: uppercase; font-size: .65rem; }
     section { padding: 82px 0; }
     section:nth-of-type(even) { background: #fff9fa; }
     .section-head { margin-bottom: 34px; }
@@ -89,7 +81,6 @@
       .navlinks { gap: 13px; }
       .hero { padding: 55px 0; }
       .hero-grid, .about-grid, .cards, .education, .interests-grid { grid-template-columns: 1fr; }
-      .portrait { min-height: 260px; }
       section { padding: 60px 0; }
     }
   </style>
@@ -124,12 +115,6 @@
             <a class="btn primary" href="#experiencia">Conoce mi trayectoria</a>
             <a class="btn" href="#contacto">Contactar</a>
             <a class="btn" href="https://www.linkedin.com/in/luna-beatriz-del-pozo-garcia/" target="_blank" rel="noopener">Ver LinkedIn</a>
-          </div>
-        </div>
-        <div class="portrait">
-          <div>
-            <strong>Tu fotografía</strong>
-            <small>Reemplaza este espacio por tu retrato profesional</small>
           </div>
         </div>
       </div>
@@ -207,14 +192,14 @@
             <p>En formación.</p>
           </article>
           <article class="card">
-            <div class="date">Cursos de idiomas</div>
+            <div class="date">Formación complementaria</div>
             <h3>Inglés avanzado</h3>
-            <p>Formación complementaria en el idioma inglés.</p>
+            <p>Curso de idiomas.</p>
           </article>
           <article class="card">
-            <div class="date">Cursos de idiomas</div>
+            <div class="date">Formación complementaria</div>
             <h3>Portugués avanzado</h3>
-            <p>Formación complementaria en el idioma portugués.</p>
+            <p>Curso de idiomas.</p>
           </article>
         </div>
       </div>
@@ -235,6 +220,8 @@
           <span class="skill">Adaptabilidad</span>
           <span class="skill">Trabajo en equipo</span>
           <span class="skill">Orientación al servicio</span>
+          <span class="skill">Microsoft Office</span>
+          <span class="skill">Canva</span>
         </div>
         <div class="section-head" style="margin-top:42px;">
           <div class="number">IDIOMAS</div>
@@ -270,6 +257,11 @@
             <div class="date">Creatividad</div>
             <h3>Repostería</h3>
             <p>Me gusta preparar postres y explorar recetas, combinando creatividad, paciencia y atención al detalle.</p>
+          </article>
+          <article class="card">
+            <div class="date">Cuidado animal</div>
+            <h3>Rescate y cuidado de aves</h3>
+            <p>Interés por el rescate, cuidado y bienestar de las aves.</p>
           </article>
         </div>
       </div>
