@@ -77,6 +77,7 @@
     h3 { font: 1.35rem var(--serif); margin: 9px 0 5px; }
     .card p { color: var(--muted); margin: 7px 0 0; font-size: .92rem; }
     .education { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .interests-grid { grid-template-columns: repeat(3, 1fr); }
     .skills { display: flex; flex-wrap: wrap; gap: 10px; }
     .skill { padding: 9px 14px; border: 1px solid var(--line); background: white; color: #65585c; font-size: .85rem; }
     .contact { background: var(--pink-pale); text-align: center; }
@@ -87,7 +88,7 @@
       nav { align-items: flex-start; padding: 18px 0; flex-direction: column; }
       .navlinks { gap: 13px; }
       .hero { padding: 55px 0; }
-      .hero-grid, .about-grid, .cards, .education { grid-template-columns: 1fr; }
+      .hero-grid, .about-grid, .cards, .education, .interests-grid { grid-template-columns: 1fr; }
       .portrait { min-height: 260px; }
       section { padding: 60px 0; }
     }
@@ -103,6 +104,7 @@
           <a href="#experiencia">Experiencia</a>
           <a href="#formacion">Formación</a>
           <a href="#habilidades">Habilidades</a>
+          <a href="#intereses">Intereses</a>
           <a href="#contacto">Contacto</a>
         </div>
         <span class="lang">ESPAÑOL</span>
@@ -121,6 +123,7 @@
           <div class="actions">
             <a class="btn primary" href="#experiencia">Conoce mi trayectoria</a>
             <a class="btn" href="#contacto">Contactar</a>
+            <a class="btn" href="https://www.linkedin.com/in/luna-beatriz-del-pozo-garcia/" target="_blank" rel="noopener">Ver LinkedIn</a>
           </div>
         </div>
         <div class="portrait">
@@ -155,19 +158,32 @@
         </div>
         <div class="cards">
           <article class="card">
-            <div class="date">Sector turismo</div>
-            <h3>Asistente de Marketing</h3>
+            <div class="date">Marketing · Atención al cliente</div>
+            <h3>Asistente Área de Marketing / Atención al Cliente</h3>
             <p><strong>Meganet Viajes Perú</strong></p>
-            <p>Apoyo en acciones de marketing turístico, comunicación con agencias y promoción de paquetes y experiencias de viaje.</p>
+            <p>Apoyo en acciones de marketing turístico, comunicación y coordinación con agencias, atención al cliente y promoción de paquetes y experiencias de viaje.</p>
           </article>
           <article class="card">
-            <div class="date">Atención al cliente</div>
-            <h3>Recepción y servicio al usuario</h3>
-            <p><strong>Experiencia en servicios municipales</strong></p>
-            <p>Atención y orientación al público, recepción de consultas y apoyo en la gestión diaria de servicios.</p>
+            <div class="date">Atención al cliente · Administración</div>
+            <h3>Servicio de atención al cliente y Asistente Administrativo</h3>
+            <p><strong>Áreas de la Gerencia de Desarrollo Humano</strong></p>
+            <ul>
+              <li>Área de Deportes</li>
+              <li>Área de Salud</li>
+              <li>Área de Bienestar Social</li>
+            </ul>
+            <p>Atención y orientación a usuarios, recepción de consultas y apoyo administrativo en las distintas áreas.</p>
+          </article>
+          <article class="card">
+            <div class="date">Turismo · Servicio bilingüe · Ocasional</div>
+            <h3>Guía Turístico Bilingüe</h3>
+            <p><strong>Eco Cruceros</strong></p>
+            <ul>
+              <li>Guiado de turistas durante navegaciones hacia las islas del litoral del Callao.</li>
+              <li>Asistencia a los visitantes durante la actividad de nado con lobos marinos en las Islas Palomino.</li>
+            </ul>
           </article>
         </div>
-        <p class="body-copy" style="font-size:.82rem;margin-top:18px;">* Ajusta los nombres de puestos, instituciones, funciones y fechas para que coincidan exactamente con tu CV.</p>
       </div>
     </section>
 
@@ -189,6 +205,16 @@
             <h3>Administración de Hotelería y Restaurantes</h3>
             <p>ISIL</p>
             <p>En formación.</p>
+          </article>
+          <article class="card">
+            <div class="date">Cursos de idiomas</div>
+            <h3>Inglés avanzado</h3>
+            <p>Formación complementaria en el idioma inglés.</p>
+          </article>
+          <article class="card">
+            <div class="date">Cursos de idiomas</div>
+            <h3>Portugués avanzado</h3>
+            <p>Formación complementaria en el idioma portugués.</p>
           </article>
         </div>
       </div>
@@ -221,15 +247,43 @@
       </div>
     </section>
 
+
+    <section id="intereses">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="number">05 / MÁS SOBRE MÍ</div>
+          <h2>Mis intereses</h2>
+          <p class="body-copy">Actividades que disfruto y que también reflejan mi curiosidad, creatividad y compromiso.</p>
+        </div>
+        <div class="cards interests-grid">
+          <article class="card">
+            <div class="date">Deporte</div>
+            <h3>Tenis</h3>
+            <p>Disfruto aprender, entrenar y asumir nuevos retos dentro y fuera de la cancha.</p>
+          </article>
+          <article class="card">
+            <div class="date">Compromiso social</div>
+            <h3>Voluntariado</h3>
+            <p>Me interesa colaborar en iniciativas de apoyo y bienestar animal, aportando tiempo y dedicación.</p>
+          </article>
+          <article class="card">
+            <div class="date">Creatividad</div>
+            <h3>Repostería</h3>
+            <p>Me gusta preparar postres y explorar recetas, combinando creatividad, paciencia y atención al detalle.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section class="contact" id="contacto">
       <div class="wrap">
-        <div class="number">05 / CONTACTO</div>
+        <div class="number">06 / CONTACTO</div>
         <h2>Conectemos.</h2>
         <p>Estoy abierta a nuevas oportunidades y conexiones profesionales.</p>
         <div class="actions" style="justify-content:center;">
           <!-- Reemplaza los enlaces de ejemplo por tus datos reales -->
           <a class="btn primary" href="mailto:TU-CORREO@EJEMPLO.COM">Envíame un correo</a>
-          <a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://www.linkedin.com/in/luna-beatriz-del-pozo-garcia/" target="_blank" rel="noopener">Mi perfil de LinkedIn</a>
         </div>
       </div>
     </section>
